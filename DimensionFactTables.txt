@@ -1,0 +1,31 @@
+Dimension Tables:
+
+DimDate
+dateid 
+year 
+month 
+monthname 
+quarter 
+quartername 
+day 
+weekdayname
+
+
+DimWaste
+wastetypeid 
+wastetype
+
+DimZone
+zoneid 
+zonename 
+city
+
+
+Fact Table:
+
+FactTrips
+tripid 
+dateid 
+wastetypeid 
+zoneid 
+wastecollected 
